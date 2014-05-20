@@ -1,0 +1,9 @@
+# robotstxt.org/
+
+User-agent: *
+Pd [privsep] [TLS] ----------
+220-You are user number 6 of 50 allowed.
+220-Local time is now 01:01. Server port: 21.
+220-This is a private system - No anonymous login
+220-IPv6 connections are also welcome on this server.
+220 You will be disconnected after 30 minutes of inactivity.
