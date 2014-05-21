@@ -301,12 +301,17 @@ textarea {
 }
 
 $bc: #eee;
-$sans: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sansCond: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$thick: "Open Sans Condensed", "Source Sans Pro", Helvetica, sans-serif;
 $serif: "FreightText", Garamond, 'Times New Roman', Times, serif;
+$brown: #764100;
+$muteBlue:  #5c6468;
 
 body {
     
     font-family: $sans;
+    color: #222;
 }
 
 #page {
@@ -353,7 +358,7 @@ body {
 #links h4 {
     font-size: 36px;
     margin-bottom: 25px;
-    font-family: Oswald;
+    font-family: $thick;
     text-transform: uppercase;
 }
 
@@ -386,14 +391,15 @@ p {
 }
 
 a {
-    color: black;
+    color: $brown;
 }
 
 h3 {
-    font-family: Oswald, "Source Sans Pro", Helvetica, sans-serif;
+    font-family: $thick;
     font-size: 30px;
     margin-bottom: 10px;
     text-transform: uppercase;
+    color: $brown;
 }
 
 
@@ -437,7 +443,7 @@ h3 {
     color: white;
     margin-top: 0;
     margin-bottom: 30px;
-    font-family: Oswald, "Source Sans Pro", Helvetica, sans-serif;
+    font-family: $thick;
 }
 
 #cover-inner .horizontal-rule {
@@ -466,33 +472,42 @@ h3 {
 #petition-block {
 	background: white;
 	padding: 25px 2.5%;
+	border: 1px solid $bc;
 	h3 {
 		font-weight: 300;
-		font-family: $sans;
+		font-family: $sansCond;
 		font-size: 42px;
+		color: $muteBlue;
 		
 	}
 	h4 {
 		font-weight: 300;
-		font-size: 28px;
+		font-size: 16px;
+		text-transform: uppercase;
 		margin-top: 30px;
+		font-family: $thick;
+		color: $brown;
+		line-height: 120%;
 	}
 	ul {
 		padding-left: 0;
 		li {
 			list-style: none;
 			font-size: 16px;
-			padding-bottom: 7px;
-			margin-bottom: 7px;
+			margin-bottom: 5px;
 			h5 {
-				font-weight: 600;
 				font-size: 18px;
-				margin-bottom: 5px;			
+				margin-bottom: 5px;	
+				font-family: $sansCond;	
+				color: $muteBlue;	
 			}
 			span {
 				font-style: italic;
 				font-family: $serif;
 				line-height: 120%;
+				margin-bottom: 10px;
+				margin-top: 3px;
+				display: inline-block;
 			}
 		}
 	}
@@ -512,12 +527,6 @@ h3 {
     
 }
 
-#book h3 {
-    margin-bottom: 10px;
-    font-size: 30px;
-    text-align: center;
-}
-
 #book img {
     float: left;
     width: 100%;
@@ -533,6 +542,9 @@ h3 {
     font-size: 20px;
     line-height: 160%;
     font-weight: 200;
+    strong {
+    	font-family: $sansCond;
+    }
 }
 
 #book div ul {
@@ -550,7 +562,7 @@ h3 {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 0;
-    font-family: Oswald, Helvetica, sans-serif;
+    font-family: $thick;
 }
 
 .buy-book {
@@ -558,7 +570,7 @@ h3 {
     float: left;
     text-decoration: none;
     font-weight: bold;
-    font-family: Oswald, Helvetica, sans-serif;
+    font-family: $thick;
     text-transform: uppercase;
     background: #eee;
     border: 1px solid #ddd;

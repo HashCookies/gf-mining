@@ -231,7 +231,8 @@ textarea {
   h3 {
     page-break-after: avoid; } }
 body {
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222; }
 
 #page {
   background: #f5f5f5 repeat;
@@ -264,7 +265,7 @@ body {
 #links h4 {
   font-size: 36px;
   margin-bottom: 25px;
-  font-family: Oswald;
+  font-family: "Open Sans Condensed", "Source Sans Pro", Helvetica, sans-serif;
   text-transform: uppercase; }
 
 #links li {
@@ -290,13 +291,14 @@ p {
   line-height: 150%; }
 
 a {
-  color: black; }
+  color: #764100; }
 
 h3 {
-  font-family: Oswald, "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Open Sans Condensed", "Source Sans Pro", Helvetica, sans-serif;
   font-size: 30px;
   margin-bottom: 10px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #764100; }
 
 #intro {
   width: 60%;
@@ -332,7 +334,7 @@ h3 {
   color: white;
   margin-top: 0;
   margin-bottom: 30px;
-  font-family: Oswald, "Source Sans Pro", Helvetica, sans-serif; }
+  font-family: "Open Sans Condensed", "Source Sans Pro", Helvetica, sans-serif; }
 
 #cover-inner .horizontal-rule {
   background: white;
@@ -354,30 +356,39 @@ h3 {
 
 #petition-block {
   background: white;
-  padding: 25px 2.5%; }
+  padding: 25px 2.5%;
+  border: 1px solid #eeeeee; }
   #petition-block h3 {
     font-weight: 300;
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 42px; }
+    font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    color: #5c6468; }
   #petition-block h4 {
     font-weight: 300;
-    font-size: 28px;
-    margin-top: 30px; }
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: "Open Sans Condensed", "Source Sans Pro", Helvetica, sans-serif;
+    color: #764100;
+    line-height: 120%; }
   #petition-block ul {
     padding-left: 0; }
     #petition-block ul li {
       list-style: none;
       font-size: 16px;
-      padding-bottom: 7px;
-      margin-bottom: 7px; }
+      margin-bottom: 5px; }
       #petition-block ul li h5 {
-        font-weight: 600;
         font-size: 18px;
-        margin-bottom: 5px; }
+        margin-bottom: 5px;
+        font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #5c6468; }
       #petition-block ul li span {
         font-style: italic;
         font-family: "FreightText", Garamond, "Times New Roman", Times, serif;
-        line-height: 120%; }
+        line-height: 120%;
+        margin-bottom: 10px;
+        margin-top: 3px;
+        display: inline-block; }
 
 #book {
   margin-top: 0px;
@@ -385,11 +396,6 @@ h3 {
   background: #ffffff;
   border: 1px solid #eeeeee;
   padding: 50px 2.5%; }
-
-#book h3 {
-  margin-bottom: 10px;
-  font-size: 30px;
-  text-align: center; }
 
 #book img {
   float: left;
@@ -405,6 +411,8 @@ h3 {
   font-size: 20px;
   line-height: 160%;
   font-weight: 200; }
+  #book div p strong {
+    font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 #book div ul {
   padding-left: 0;
@@ -419,14 +427,14 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 0;
-  font-family: Oswald, Helvetica, sans-serif; }
+  font-family: "Open Sans Condensed", "Source Sans Pro", Helvetica, sans-serif; }
 
 .buy-book {
   display: block;
   float: left;
   text-decoration: none;
   font-weight: bold;
-  font-family: Oswald, Helvetica, sans-serif;
+  font-family: "Open Sans Condensed", "Source Sans Pro", Helvetica, sans-serif;
   text-transform: uppercase;
   background: #eee;
   border: 1px solid #ddd;
