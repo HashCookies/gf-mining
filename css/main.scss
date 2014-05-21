@@ -484,7 +484,7 @@ h3 {
 		font-weight: 300;
 		font-size: 16px;
 		text-transform: uppercase;
-		margin-top: 30px;
+		margin-top: 0;
 		font-family: $thick;
 		color: $brown;
 		line-height: 120%;
@@ -511,10 +511,43 @@ h3 {
 			}
 		}
 	}
+	.meta {
+		border-top: 1px solid $bc;
+		margin-top: 0px;
+		padding: 50px 0 0px;
+		font-family: $serif;
+		font-style: italic;
+	}
+	.row {
+		margin-top: 30px;
+		border-top: 1px solid $bc;
+		padding-top: 0px;
+		div {
+			padding-top: 30px;
+		}
+	}
 }
 
 
-
+.post-judgement {
+	border-left: 1px solid $bc;
+	p {
+		font-size: 16px;
+		font-weight: 400;
+	}
+	ul {
+		li {
+			font-size: 18px;
+			margin-bottom: 5px;	
+			font-family: $sansCond;	
+			color: $muteBlue;
+		}
+	}
+	h3 {
+		font-size: 26px !important;
+		margin-top: 0px;
+	}
+}
 
 
 
@@ -539,9 +572,9 @@ h3 {
 }
 
 #book div p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 160%;
-    font-weight: 200;
+    font-weight: 400;
     strong {
     	font-family: $sansCond;
     }
