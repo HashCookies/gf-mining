@@ -377,7 +377,7 @@ h3 {
       font-size: 16px;
       margin-bottom: 15px; }
       #petition-block ul li h5 {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 5px;
         font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: #5c6468; }
@@ -409,7 +409,6 @@ h3 {
     font-size: 16px;
     font-weight: 400; }
   .post-judgement ul li {
-    font-size: 18px;
     font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #5c6468; }
   .post-judgement h3 {
