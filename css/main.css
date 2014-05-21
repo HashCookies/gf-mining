@@ -245,7 +245,7 @@ body {
   margin: 0 auto 10px; }
 
 .section {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 50px; }
 
 #masthead img {
@@ -303,8 +303,7 @@ h3 {
 #intro {
   width: 60%;
   float: right;
-  margin-top: 100px;
-  margin-bottom: 100px; }
+  margin-top: 100px; }
 
 #intro p {
   font-size: 18px;
@@ -376,7 +375,7 @@ h3 {
     #petition-block ul li {
       list-style: none;
       font-size: 16px;
-      margin-bottom: 5px; }
+      margin-bottom: 15px; }
       #petition-block ul li h5 {
         font-size: 18px;
         margin-bottom: 5px;
@@ -386,21 +385,23 @@ h3 {
         font-style: italic;
         font-family: "FreightText", Garamond, "Times New Roman", Times, serif;
         line-height: 120%;
-        margin-bottom: 10px;
         margin-top: 3px;
         display: inline-block; }
   #petition-block .meta {
     border-top: 1px solid #eeeeee;
     margin-top: 0px;
-    padding: 50px 0 0px;
+    padding: 30px 0 0px;
     font-family: "FreightText", Garamond, "Times New Roman", Times, serif;
-    font-style: italic; }
+    font-style: italic;
+    height: 100%; }
   #petition-block .row {
     margin-top: 30px;
     border-top: 1px solid #eeeeee;
     padding-top: 0px; }
-    #petition-block .row div {
+    #petition-block .row .col-md-4 {
       padding-top: 30px; }
+  #petition-block .unit {
+    margin-bottom: 35px; }
 
 .post-judgement {
   border-left: 1px solid #eeeeee; }
@@ -409,7 +410,6 @@ h3 {
     font-weight: 400; }
   .post-judgement ul li {
     font-size: 18px;
-    margin-bottom: 5px;
     font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #5c6468; }
   .post-judgement h3 {
